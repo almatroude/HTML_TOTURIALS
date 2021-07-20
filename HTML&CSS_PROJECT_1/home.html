@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Walji University </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(42, 4, 180);
+;
+            text-decoration: none;
+        }
+        nav {
+            height: 100px;
+            width: 100%;
+            background-color: #34495e;
+        }
+        .bdy{
+            background-image: url("image.png");
+            background-repeat:no-repeat;
+            font-weight: 100%;
+            height: 400px;
+            font-weight: 100%;
+        }
+        h1{
+            text-align: center;
+            color: palevioletred;
+            padding-top: 10px;
+            font-weight: 100%;
+        }
+        h2 {
+            text-align: center;
+        }
+        label.logo {
+            font-size: 30px;
+            font-weight: bold;
+            color: aliceblue;
+            padding: 25px 100px;
+            line-height: 40px;
+        }
+        a:hover {
+            padding: 1px;
+            border-radius: 4px;
+            border: 1px solid rgb(245, 240, 240);
+            cursor: pointer;
+        }
+        a.active,a:hover{
+            border: 1px solid rgb(245, 242, 242);
+            transition: .5s;
+        }
+        nav li{
+            float: right;
+            margin:0 10px;
+            line-height: 40px;
+            padding: auto;
+            
+        }
+        nav a{
+            color: white;
+            float: right;
+            text-transform: uppercase;
+        }
+        #cont {
+            background-color: rgb(42, 4, 180);
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <label class="logo">Walji University</label>
+        <ul>
+            <li class="nav_links"><a href="about.html">About</a></li>
+            <li class="nav_links"><a href="admin.html">Admintration</a></li>
+            <li class="nav_links"><a href="f_members.html">Faculty members</a></li>
+            <li class="nav_links"><a href="faculty.html">Faculty</a></li>
+            <li class="nav_links"><a href="hall.html">Halls</a></li>
+            <li class="nav_links"><a href="department.html">Departments</a></li>
+            <li class="nav_links"><a href="course.html">Courses</a></li>
+            <li class="active"><a href="home.html">Home</a></li>
+
+        </ul>
+    </nav>
+    <div class="bdy">
+        <h1>Welcome to Walji University College.</h1>
+    </div>
+    <h2 id="cont"> Your home for quality tuition and learning for the progress of future generations.</h2>
+    <div class="footer">
+
+    </div>
+</body>
+</html>
